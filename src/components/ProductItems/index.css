@@ -1,0 +1,8 @@
+.item-list-wrapper {
+    width: calc(100% - 10px);
+    height: calc(100vh - 130px);
+    padding: 5px;
+    margin: 0 5px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}

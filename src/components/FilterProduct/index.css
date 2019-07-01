@@ -1,0 +1,13 @@
+.product-filter {
+    background: #CCC;
+    display: flex;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 0 5px 0;
+}
+
+.filter-Product--select {
+    border: none;
+    border-radius: 5px;
+    margin: 0 0 0 5px;
+}
