@@ -29,9 +29,9 @@ class HomePage extends React.Component {
   resize = () => {
     let width = window.innerWidth;
     console.log("width  ---- ", width);
-    if (width <= 767) {
+    if (width < 1024) {
       this.setState({ numItemsPerPage: 8 });
-    } else if (width > 767 && width <= 1024) {
+    } else if (width >= 1024 && width < 1166) {
       this.setState({ numItemsPerPage: 9 });
     } else {
       this.setState({ numItemsPerPage: 8 });
